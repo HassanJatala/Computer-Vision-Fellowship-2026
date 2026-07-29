@@ -1,0 +1,24 @@
+# Core training / inference
+ultralytics>=8.2.0
+
+# Data handling & experiment comparison (Section 2)
+pandas>=2.0.0
+pyyaml>=6.0
+numpy>=1.24.0
+
+# Plotting (training curves, sample predictions)
+matplotlib>=3.7.0
+
+# Image I/O (annotated image saving/export)
+Pillow>=10.0.0
+
+# Video read/write (Video Upload detection, Section 5.3)
+opencv-python>=4.9.0
+
+# Deployment app (Section 5)
+gradio>=4.0.0
+
+# NOTE: google-colab is intentionally NOT listed here.
+# It is a Colab-only built-in module (used for file upload and Google Drive
+# mounting in Sections 1.0, 3.0, and 4.1) and is not installable via pip.
+# If running outside Colab, skip those cells and handle file I/O manually.
