@@ -1,0 +1,8 @@
+tracker_id,class,last_confidence,frames_tracked
+1,With helmet,0.5943943858146667,30
+2,With helmet,0.3265354037284851,30
+3,  Without helmet,0.6117481589317322,30
+4,  Without helmet,0.6754060387611389,7
+5,  Without helmet,0.5269342064857483,30
+6,  Without helmet,0.5219910144805908,30
+7,  Without helmet,0.3642537593841553,30

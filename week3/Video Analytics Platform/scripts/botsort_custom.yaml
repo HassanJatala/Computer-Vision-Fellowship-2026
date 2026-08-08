@@ -1,0 +1,14 @@
+# Custom BoT-SORT config -- based on Ultralytics' default botsort.yaml,
+# with track_buffer increased from the default 30 to 60. This keeps a
+# track alive twice as long while unmatched (e.g. during occlusion)
+# before it's deleted and a new ID gets issued on reappearance --
+# directly targeting ID-churn/fragmentation in dense, occluded scenes.
+tracker_type: botsort
+track_high_thresh: 0.25
+track_low_thresh: 0.1
+new_track_thresh: 0.25
+track_buffer: 60
+match_thresh: 0.8
+fuse_score: True
+model: auto
+with_reid: False
