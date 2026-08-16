@@ -1,0 +1,24 @@
+{
+  "experiment": "Confidence Threshold Comparison",
+  "results": [
+    {
+      "confidence": 0.3,
+      "avg_detections_per_frame": 10.116766467065869,
+      "unique_track_ids": 91,
+      "zone_entries": 98
+    },
+    {
+      "confidence": 0.5,
+      "avg_detections_per_frame": 7.2844311377245505,
+      "unique_track_ids": 39,
+      "zone_entries": 48
+    },
+    {
+      "confidence": 0.7,
+      "avg_detections_per_frame": 4.254491017964072,
+      "unique_track_ids": 23,
+      "zone_entries": 28
+    }
+  ],
+  "analysis": "Lower confidence thresholds detect more objects per frame (fewer missed detections) but risk including false-positive detections (background clutter misidentified as a person), which can inflate track counts and trigger spurious events. Higher thresholds reduce false positives but risk missing genuine but lower-confidence detections (e.g., partially occluded people), potentially causing missed events."
+}

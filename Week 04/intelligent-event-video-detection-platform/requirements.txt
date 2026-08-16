@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+PySide6
+matplotlib
+numpy
+python-dotenv
+pytest

@@ -1,0 +1,10 @@
+Event ID,Type,Severity,Zone,Track,Status,Start Time
+2afc3b70-dcf8-486e-bbc1-a6c922f489c7,overcrowding,Warning,zone_3,,Active,1786552782.9898305
+49b67048-94f1-40a0-a134-d89a9bac15bf,loitering,Critical,zone_3,1,Active,1786553452.7525673
+fa4f4ea3-24d0-4c4d-8753-1f14644b4059,loitering,Critical,zone_3,2,Active,1786553453.2353878
+034390e0-09af-47b2-a821-a270ff4e1158,loitering,Critical,zone_3,3,Active,1786553453.5473423
+0048abee-bd6e-4935-b84d-508dd4f86f29,loitering,Critical,zone_3,4,Active,1786553456.2760484
+fd298961-e3b4-43f2-9ad8-eaf4c8169ebc,loitering,Critical,zone_3,5,Active,1786553457.8433385
+5aba301d-bb1e-4879-bf38-b2ccb4f78b31,loitering,Critical,zone_3,6,Active,1786553477.1443145
+aa0c0f80-5a8e-4ada-b2a6-cf7f16180da5,loitering,Critical,zone_3,7,Active,1786553498.1200306
+ed257a3a-0ebc-44b3-99be-93ba7d20fc35,loitering,Critical,zone_3,8,Active,1786553502.1616168

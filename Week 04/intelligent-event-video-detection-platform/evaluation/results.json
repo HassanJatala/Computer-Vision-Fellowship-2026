@@ -1,0 +1,299 @@
+{
+  "per_scenario": [
+    {
+      "scenario_id": "scenario_01",
+      "category": "zone_entry",
+      "expected": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_02",
+      "category": "zone_entry",
+      "expected": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_03",
+      "category": "zone_entry",
+      "expected": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_04",
+      "category": "zone_entry",
+      "expected": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_05",
+      "category": "loitering",
+      "expected": {
+        "intrusion": 3,
+        "line_crossing": 3,
+        "wrong_direction": 2
+      },
+      "actual": {
+        "intrusion": 3,
+        "line_crossing": 3,
+        "wrong_direction": 2
+      },
+      "true_positives": 8,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_06",
+      "category": "loitering",
+      "expected": {
+        "intrusion": 3,
+        "line_crossing": 3,
+        "wrong_direction": 2
+      },
+      "actual": {
+        "intrusion": 3,
+        "line_crossing": 3,
+        "wrong_direction": 2
+      },
+      "true_positives": 8,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_07",
+      "category": "loitering",
+      "expected": {
+        "intrusion": 3,
+        "line_crossing": 3,
+        "wrong_direction": 2
+      },
+      "actual": {
+        "intrusion": 3,
+        "line_crossing": 3,
+        "wrong_direction": 2
+      },
+      "true_positives": 8,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_08",
+      "category": "wrong_direction",
+      "expected": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_09",
+      "category": "wrong_direction",
+      "expected": {
+        "line_crossing": 2,
+        "intrusion": 1
+      },
+      "actual": {
+        "line_crossing": 2,
+        "intrusion": 1
+      },
+      "true_positives": 3,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_10",
+      "category": "overcrowding",
+      "expected": {
+        "intrusion": 3,
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "intrusion": 3,
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_11",
+      "category": "overcrowding",
+      "expected": {
+        "intrusion": 2
+      },
+      "actual": {
+        "intrusion": 2
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_12",
+      "category": "normal",
+      "expected": {},
+      "actual": {},
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_13",
+      "category": "normal",
+      "expected": {},
+      "actual": {},
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_14",
+      "category": "normal",
+      "expected": {},
+      "actual": {},
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_15",
+      "category": "normal",
+      "expected": {},
+      "actual": {},
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_16",
+      "category": "line_crossing",
+      "expected": {
+        "line_crossing": 2,
+        "wrong_direction": 2,
+        "intrusion": 1
+      },
+      "actual": {
+        "line_crossing": 2,
+        "wrong_direction": 2,
+        "intrusion": 1
+      },
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_17",
+      "category": "line_crossing",
+      "expected": {
+        "intrusion": 3,
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "actual": {
+        "intrusion": 3,
+        "line_crossing": 1,
+        "wrong_direction": 1
+      },
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_18",
+      "category": "line_crossing",
+      "expected": {
+        "intrusion": 1,
+        "line_crossing": 1
+      },
+      "actual": {
+        "intrusion": 1,
+        "line_crossing": 1
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_19",
+      "category": "difficult_edge_case",
+      "expected": {
+        "intrusion": 2
+      },
+      "actual": {
+        "intrusion": 2
+      },
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "scenario_id": "scenario_20",
+      "category": "difficult_edge_case",
+      "expected": {
+        "intrusion": 7,
+        "line_crossing": 4,
+        "wrong_direction": 2
+      },
+      "actual": {
+        "intrusion": 7,
+        "line_crossing": 4,
+        "wrong_direction": 2
+      },
+      "true_positives": 13,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "aggregate": {
+    "total_tp": 71,
+    "total_fp": 0,
+    "total_fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "average_detection_delay_seconds": 0.8007246376811593
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "lines": [
+    {
+      "line_id": "line_1",
+      "name": "Enetrance_Line",
+      "point_a": [
+        1093,
+        24
+      ],
+      "point_b": [
+        1158,
+        947
+      ],
+      "expected_direction": "A_to_B"
+    },
+    {
+      "line_id": "line_2",
+      "name": "Waiting_line",
+      "point_a": [
+        460,
+        37
+      ],
+      "point_b": [
+        479,
+        671
+      ],
+      "expected_direction": "B_to_A"
+    }
+  ]
+}

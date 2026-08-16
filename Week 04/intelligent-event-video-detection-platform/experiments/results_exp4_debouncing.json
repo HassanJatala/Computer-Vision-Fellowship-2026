@@ -1,0 +1,7 @@
+{
+  "experiment": "Event Debouncing Comparison",
+  "raw_fires_without_debouncing": 75,
+  "distinct_events_with_debouncing": 12,
+  "duplicate_rate_reduced_percent": 84.0,
+  "analysis": "Without debouncing, the rule engine fired 75 times total across the video, since a continuously-true condition (e.g., ongoing loitering) re-fires every single frame. With debouncing via EventManager's Detected->Active->Resolved lifecycle, only 12 distinct events were created, since ongoing conditions correctly update an existing Active event rather than creating a new one. This represents a 84.0% reduction in duplicate alerts, directly validating Requirement 13's debouncing objective."
+}

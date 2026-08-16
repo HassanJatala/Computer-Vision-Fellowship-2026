@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+
+# Model weights (too large for GitHub - link externally in README)
+models/*.pt
+
+# Sample/test videos (too large - keep 1-2 tiny samples if needed, link rest externally)
+sample_videos/*.mp4
+sample_videos/*.avi
+
+# Runtime database (regenerated on each run, not source code)
+database/*.db
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Runtime evidence captures (regenerated each run, not source code)
+evidence/*.jpg
+evidence/*.png

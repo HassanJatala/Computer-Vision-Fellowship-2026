@@ -1,0 +1,46 @@
+{
+  "rules": [
+    {
+      "rule_id": "rule_1",
+      "type": "intrusion",
+      "name": "Person enters Restricted Area",
+      "zone_id": "zone_1",
+      "severity": "Warning",
+      "enabled": true
+    },
+    {
+      "rule_id": "rule_2",
+      "type": "loitering",
+      "name": "Loitering in Waiting Area",
+      "zone_id": "zone_3",
+      "threshold_seconds": 10,
+      "severity": "Critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "rule_3",
+      "type": "direction",
+      "name": "Wrong direction at Waiting Area Divider",
+      "line_id": "line_1",
+      "severity": "Warning",
+      "enabled": true
+    },
+    {
+      "rule_id": "rule_4",
+      "type": "occupancy",
+      "name": "Waiting Area overcrowding",
+      "zone_id": "zone_3",
+      "max_capacity": 20,
+      "severity": "Warning",
+      "enabled": true
+    },
+    {
+      "rule_id": "rule_5",
+      "type": "direction",
+      "name": "Wrong direction at Entrance Threshold",
+      "line_id": "line_2",
+      "severity": "Warning",
+      "enabled": true
+    }
+  ]
+}

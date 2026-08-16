@@ -1,0 +1,18 @@
+{
+  "experiment": "Tracking Quality Comparison",
+  "results": [
+    {
+      "tracker": "bytetrack",
+      "unique_track_ids": 23,
+      "zone_entries": 28,
+      "avg_inference_time_ms": 171.7595083270958
+    },
+    {
+      "tracker": "botsort",
+      "unique_track_ids": 24,
+      "zone_entries": 30,
+      "avg_inference_time_ms": 229.11689809696404
+    }
+  ],
+  "analysis": "ByteTrack produced marginally fewer unique track IDs (23 vs 24) and fewer zone-entry events (28 vs 30) than BoT-SORT, suggesting slightly better identity persistence through occlusion in this scenario. ByteTrack was also ~28% faster per frame, which is significant for a CPU-only real-time system where every millisecond directly impacts achievable FPS. Given the marginal tracking-quality difference did not favor BoT-SORT despite its higher computational cost, ByteTrack was selected as the default tracker for this deployment, prioritizing real-time performance without meaningfully sacrificing accuracy."
+}

@@ -1,0 +1,91 @@
+{
+  "zones": [
+    {
+      "zone_id": "zone_1",
+      "name": "Restricted",
+      "polygon": [
+        [
+          1114,
+          3
+        ],
+        [
+          1904,
+          3
+        ],
+        [
+          1901,
+          1050
+        ],
+        [
+          1167,
+          1056
+        ],
+        [
+          1111,
+          22
+        ]
+      ],
+      "monitored_classes": [
+        "person"
+      ]
+    },
+    {
+      "zone_id": "zone_2",
+      "name": "Enterance",
+      "polygon": [
+        [
+          472,
+          12
+        ],
+        [
+          1090,
+          8
+        ],
+        [
+          1148,
+          1036
+        ],
+        [
+          522,
+          1026
+        ],
+        [
+          479,
+          8
+        ]
+      ],
+      "monitored_classes": [
+        "person"
+      ]
+    },
+    {
+      "zone_id": "zone_3",
+      "name": "Waiting",
+      "polygon": [
+        [
+          1,
+          2
+        ],
+        [
+          452,
+          14
+        ],
+        [
+          489,
+          1043
+        ],
+        [
+          10,
+          1070
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "monitored_classes": [
+        "person"
+      ]
+    }
+  ]
+}

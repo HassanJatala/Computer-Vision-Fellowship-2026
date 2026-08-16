@@ -1,0 +1,21 @@
+{
+  "experiment": "Dwell-Time Threshold Comparison",
+  "results": [
+    {
+      "threshold_seconds": 5,
+      "loitering_fires": 124,
+      "first_detection_time": 7.0
+    },
+    {
+      "threshold_seconds": 15,
+      "loitering_fires": 0,
+      "first_detection_time": null
+    },
+    {
+      "threshold_seconds": 30,
+      "loitering_fires": 0,
+      "first_detection_time": null
+    }
+  ],
+  "analysis": "With thresholds of 15s and 30s, no loitering was detected because the test video's total duration (~11 seconds) is shorter than these thresholds - no track could possibly accumulate that much dwell time. This demonstrates that dwell threshold selection must be calibrated to realistic expected dwell durations for the deployment scenario; a threshold longer than the maximum possible observation window produces no detections, which is a limitation of the test data length rather than the algorithm's behavior. At the 5s threshold, loitering was correctly detected starting at 7.0 seconds into the clip."
+}

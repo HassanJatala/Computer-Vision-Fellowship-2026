@@ -1,0 +1,30 @@
+{
+  "experiment": "Input Resolution Comparison",
+  "results": [
+    {
+      "resolution": "1920x1080",
+      "avg_detections_per_frame": 4.254491017964072,
+      "unique_track_ids": 23,
+      "zone_entries": 28,
+      "avg_inference_time_ms": 267.7283758174873,
+      "effective_fps": 3.735128922911438
+    },
+    {
+      "resolution": "1280x720",
+      "avg_detections_per_frame": 4.3293413173652695,
+      "unique_track_ids": 22,
+      "zone_entries": 28,
+      "avg_inference_time_ms": 203.14512281360743,
+      "effective_fps": 4.922589261065027
+    },
+    {
+      "resolution": "640x360",
+      "avg_detections_per_frame": 4.254491017964072,
+      "unique_track_ids": 23,
+      "zone_entries": 7,
+      "avg_inference_time_ms": 206.29277272138765,
+      "effective_fps": 4.847479564155976
+    }
+  ],
+  "analysis": "Lower input resolutions significantly reduce inference time (higher achievable FPS), since YOLO processes fewer pixels. However, this comes at the cost of detection quality: smaller/distant people become harder to detect accurately at reduced resolution, likely lowering true detection counts and potentially missing legitimate events. Full resolution (1920x1080) gives the highest detection fidelity at the cost of speed, while 640x360 offers the fastest processing but risks missed detections, particularly for people further from the camera or partially occluded."
+}
